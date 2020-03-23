@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+
+    <field name="bean.username">
+        <field-validator type="requiredstring">
+            <message>User Name is required.</message>
+        </field-validator>
+    </field>
+     <field name="bean.driver">
+        <field-validator type="requiredstring">
+            <message>driver is required.</message>
+        </field-validator>
+    </field>
+     <field name="bean.url">
+        <field-validator type="requiredstring">
+            <message>Url is required.</message>
+        </field-validator>
+    </field>
+	 <field name="bean.query">
+        <field-validator type="requiredstring">
+            <message>query is required.</message>
+        </field-validator>
+    </field>
+	
+</validators>
